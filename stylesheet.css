@@ -1,0 +1,80 @@
+/* Custom CSS Stylesheet */
+
+
+/* Head (Top of Page) */
+
+.jumbotron {
+    padding: 30px;
+    background-image: linear-gradient(to right, #bd97d3, #3046C5, #04aaaa);
+    color: rgb(70, 68, 68);;
+    margin: 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+/* Top Navigation Bar */
+
+.navbar {
+    background-color: cornflowerblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(70, 68, 68);
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a :hover {
+  background-color: #111;
+}
+
+ul :hover {
+  color: #24d4d4;
+}
+
+.active {
+  background-color: #04aaaa;
+}
+
+/* Search Bar within Top Nav */
+
+.input-group{
+  width: 300px;
+  padding: 0.3px;
+  text-align: center;
+  margin: 5.2px;
+}
+
+#alignright {
+  float: right;
+}
+
+.input-group button {
+  background-color: whitesmoke;
+}
+
+/* Headers */
+
+.topStoriesHeader {
+  padding-top: 15px;
+  
+}
