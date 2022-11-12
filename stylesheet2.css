@@ -22,55 +22,31 @@
     background-color: cornflowerblue;
 }
 
-/*ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(70, 68, 68);
-}*/
 
-li {
-  float: left;
-  /*border-right: 1px solid #bbb;*/
-}
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: larger;
 }
 
-/*li a :hover {
-  background-color: #111;
-}*/
-
-ul :hover {
-  color: #24d4d4;
-}
-
-.active {
-  background-color: #04aaaa;
-}
-
-/* Search Bar within Top Nav */
-
-.input-group{
+form .form-inline {
+  float: right;
   width: 300px;
   padding: 0.3px;
   text-align: center;
   margin: 5.2px;
-}
-
-#alignright {
-  float: right;
-}
-
-.input-group button {
   background-color: whitesmoke;
 }
+
+ul li:last-child {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 15px;
+  padding: 0;
+}
+
 
 /* Headers */
 
