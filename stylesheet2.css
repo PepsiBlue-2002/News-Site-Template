@@ -54,3 +54,15 @@ ul li:last-child {
   padding-top: 15px;
   
 }
+
+/*Grid Positioning
+#fixedGrid {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}*/
+
+/* Sizing Carousel Images */
+img.resize {
+  height: 50%;
+}

@@ -12,7 +12,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!--Custom CSS-->
-    <link rel="stylesheet" href="stylesheet2.css" />
+    <link rel="stylesheet" href="/stylesheet2.css" />
 
     <!--Additional CSS-->
 
@@ -77,10 +77,10 @@
             <!--<li class="nav-item"><a class="nav-link" href="#all">All News</a></li>-->
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             <li>
-        <form class="form-inline">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
-        </form>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </li>
         </ul>
     </div>
@@ -88,26 +88,165 @@
 
 
 <body>
+<!--Bootstrap Grid-->
+    <div class="container-flex">
+        <div class="row">
+            <div class="col">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <!--Vertical line of cards (currently set as "Top Stories") that will by default show up on small screens as priority.-->
+                            <div class="container-flex" style="margin-left: 1.5%;">
+                                <h2 class="topStoriesHeader" style="margin-top: 2%;">
+                                    <span class="border border-primary rounded">
+                                    Top Stories This Week
+                                </h2> 
+                                    </span>
 
-    <div class="container-fluid">
-        <h2 class="topStoriesHeader" style="margin-top: 2%;">
-            <!--<span class="border border-primary rounded"></span>-->
-            Top Stories This Week
-        </h2>
+                                <div class="card" style="width: 22rem; margin-top: 2%;">
+                                    <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the
+                                            card's
+                                            content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
 
-        <div class="card" style="width: 22rem; margin-top: 2%;">
-            <!--<img class="card-img-top" src="..." alt="Card image cap">-->
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's
-                    content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            <div class="container-flex" style="margin-left: 2%;">
+                                <div class="card" style="width: 22rem; margin-top: 2%;">
+                                    <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the
+                                            card's
+                                            content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="container-flex" style="margin-left: 2%;">
+                                <div class="card" style="width: 22rem; margin-top: 2%;">
+                                    <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the
+                                            card's
+                                            content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                
+
+
+        
+
+<!--Place For Other Stories To Be Listed-->
+
+            <h2 class="topStoriesHeader" style="margin-top: 2%;">
+                <span class="border border-primary rounded">
+                    Coverage In The Area
+            </h2>
+                </span>
+
+                <ol class="list-unstyled">
+                    <li class="media">
+                      <img class="mr-3" src="images\logo.png" alt="Generic placeholder image">
+                      <div class="media-body">
+                        <h5 class="mt-0 mb-1">List-based media object</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                      </div>
+                    </li>
+                    <li class="media">
+                        <img class="mr-3" src="images\logo.png" alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="mt-0 mb-1">List-based media object</h5>
+                          Cras sit amet nibh libero, in gravida nulla. Nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                      </li>
+                      <li class="media">
+                        <img class="mr-3" src="images\logo.png" alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="mt-0 mb-1">List-based media object</h5>
+                          Cras sit amet nibh libero, in gravida nulla. Nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                      </li>
+                      <li class="media">
+                        <img class="mr-3" src="images\logo.png" alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="mt-0 mb-1">List-based media object</h5>
+                          Cras sit amet nibh libero, in gravida nulla. Nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                      </li>
+                      <li class="media">
+                        <img class="mr-3" src="images\logo.png" alt="Generic placeholder image">
+                        <div class="media-body">
+                          <h5 class="mt-0 mb-1">List-based media object</h5>
+                          Cras sit amet nibh libero, in gravida nulla. Nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                        </div>
+                      </li>
+                  </ol>
+                  
+            </div>
+
+
+
+
+
+            <div class="col">
+                3 of 3
             </div>
         </div>
     </div>
 
 
+
+    <!--(Grid) That covers the screen excluding the left vertical cards for normal to large screens. Slide(if applicable), stories, info...
+
+<div id="fixedGrid">
+<div class="container">
+    <div class="row">
+      <div class="col-sm"></div>
+      <div class="col-sm">
+        One of three columns
+      </div>
+      <div class="col-sm">
+        One of three columns
+      </div>
+    </div>
+  </div>
+  </div> -->
+
+    <script>
+        $(function () {
+    $(".carousel").carousel({ interval: 2000 });
+    $("#carouselButton").click(function () {
+        if ($("#carouselButton").children("i").hasClass("fa-pause")) {
+            $(".carousel").carousel("pause");
+            $("#carouselButton").children("i").removeClass("fa-pause");
+            $("#carouselButton").children("i").addClass("fa-play");
+        } else {
+            $(".carousel").carousel("cycle");
+            $("#carouselButton").children("i").removeClass("fa-play");
+            $("#carouselButton").children("i").addClass("fa-pause");
+        }
+    });
+});
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
