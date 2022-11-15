@@ -92,17 +92,16 @@
     <div class="container-flex">
         <div class="row">
             <div class="col">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
+                
                             <!--Vertical line of cards (currently set as "Top Stories") that will by default show up on small screens as priority.-->
-                            <div class="container-flex" style="margin-left: 1.5%;">
+                            <div class="container-flex" style="margin-left: 5.5%;">
                                 <h2 class="topStoriesHeader" style="margin-top: 2%;">
                                     <span class="border border-primary rounded">
                                     Top Stories This Week
                                 </h2> 
                                     </span>
-
+                            </div>
+                            <div class="container-flex" style="margin-left: 1.5%;">
                                 <div class="card" style="width: 22rem; margin-top: 2%;">
                                     <!--<img class="card-img-top" src="..." alt="Card image cap">-->
                                     <div class="card-body">
@@ -144,24 +143,65 @@
                                 </div>
                             </div>
 
-                        </div>
-                    </div>
-                </div>
+                            <div class="container-flex" style="margin-left: 2%;">
+                                <div class="card" style="width: 22rem; margin-top: 2%;">
+                                    <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the
+                                            card's
+                                            content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
             </div>
 
             <div class="col">
                 
 
 
-        
+            
+                <div id="carouselExampleIndicators" class="carousel slide d-none d-lg-block" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="images/(Carousel 3) jonny-gios-wcJ4kwwDP0s-unsplash - Copy.jpg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="images/(Carousel 2) dmitriy-k-2OTkD_1H86E-unsplash.jpg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="images/(Carousel 1) alfaz-sayed-xv1qtGAvPp8-unsplash.jpg" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
 
 <!--Place For Other Stories To Be Listed-->
-
+                  
+        <div class="container-flex" style="margin-left: 5.5%;">
             <h2 class="topStoriesHeader" style="margin-top: 2%;">
                 <span class="border border-primary rounded">
                     Coverage In The Area
             </h2>
                 </span>
+        </div>
 
                 <ol class="list-unstyled">
                     <li class="media">
@@ -202,13 +242,36 @@
                   </ol>
                   
             </div>
+            
 
 
 
 
 
             <div class="col">
-                3 of 3
+                <div class="container-flex" style="margin-left: 8.5%;">
+                    <h2 class="topStoriesHeader" style="margin-top: 2%;">
+                        <span class="border border-primary rounded">
+                            Keep Up With Us!
+                    </h2>
+                        </span>
+                </div>
+
+                <div class="container-flex" style="margin-left: 2%;">
+                <div class="card" style="width: 22rem; margin-top: 2%;">
+                    <!--<img class="card-img-top" src="..." alt="Card image cap">-->
+                    <div class="card-body">
+                        <h5 class="card-title">Follow Us Here</h5>
+                        <p class="card-text">
+                            <h5>Links</h5>
+                            <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"> Instagram</a>
+                            <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"> Facebook </a>
+                            <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"> Twitter </a>
+                            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"> YouTube </a>
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -232,9 +295,9 @@
   </div> -->
 
     <script>
-        $(function () {
-    $(".carousel").carousel({ interval: 2000 });
-    $("#carouselButton").click(function () {
+        (function () {
+    (".carousel").carousel({ interval: 2000 });
+    ("#carouselButton").click(function () {
         if ($("#carouselButton").children("i").hasClass("fa-pause")) {
             $(".carousel").carousel("pause");
             $("#carouselButton").children("i").removeClass("fa-pause");
